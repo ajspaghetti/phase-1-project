@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>"Pokémon Team Builder"</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="poke-header">
+      <img
+        src="https://cdn.europosters.eu/image/750/mugs/pokemon-logo-and-pikachu-i59768.jpg"
+        alt="poke-header"
+      />
+    </div>
+
+    <div class="container">
+      <form class="add-poke-form">
+        <h3>Add a Pokémon!</h3>
+
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter Pokémon name..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="text"
+          name="image"
+          value=""
+          placeholder="Select your Pokémon..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Add Pokémon"
+          class="submit"
+        />
+      </form>
+    </div>
+    <p style="text-align:center">
+      Keep building your team! <button id="new-toy-btn">Add a new Pokémon!</button>
+    </p>
+
+    <div id="Pokémon-team"></div>
+    <script type="text/javascript" defer src="src/index.js"></script>
+  </body>
+</html>
