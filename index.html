@@ -1,51 +1,133 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>"Pokémon Team Builder"</title>
-    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" name="viewport" content="width=device-width">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="poke-header">
-      <img
-        src="https://cdn.europosters.eu/image/750/mugs/pokemon-logo-and-pikachu-i59768.jpg"
-        alt="poke-header"
-      />
-    </div>
-
-    <div class="container">
-      <form class="add-poke-form">
-        <h3>Add a Pokémon!</h3>
-
-        <input
-          type="text"
-          name="name"
-          value=""
-          placeholder="Enter Pokémon name..."
-          class="input-text"
-        />
-        <br />
-        <input
-          type="text"
-          name="image"
-          value=""
-          placeholder="Select your Pokémon..."
-          class="input-text"
-        />
-        <br />
-        <input
-          type="submit"
-          name="submit"
-          value="Add Pokémon"
-          class="submit"
-        />
-      </form>
-    </div>
-    <p style="text-align:center">
-      Keep building your team! <button id="new-toy-btn">Add a new Pokémon!</button>
-    </p>
-
-    <div id="Pokémon-team"></div>
-    <script type="text/javascript" defer src="src/index.js"></script>
+    <h1 class="wrapper">
+        <img title="poke-img" class="poke-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" width="512" height="189">        
+        <div class="poke-version">Flatiron Version</div>
+    </h1>
   </body>
+<br>
+  <body>
+    <h2 class="selection-bar">
+      <div title="flex-selections" class="flex-container" id="flexid-container">
+        <div title="title-0" class="poke-0" id="trainer-selection">
+          <img src="https://freesvg.org/img/1367934593.png"
+            width="115"
+            height="120"
+            alt="T">
+        </div>
+        <div title="title-1" class="poke-1"id="1">
+          <img src="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-icon-download-icons-32.png"
+            width="100" 
+            height="100" 
+            alt="1">
+        </div>
+        <div title="title-2" class="poke-2" id="2">
+          <img src="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-icon-download-icons-32.png"
+            width="100"
+            height="100"
+            alt="2">
+        </div>
+        <div title="title-3" class="poke-3" id="3">
+          <img src="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-icon-download-icons-32.png"
+            width="100"
+            height="100"
+            alt="3">
+        </div>
+        <div title="title-4" class="poke-4" id="4">
+          <img src="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-icon-download-icons-32.png"
+          width="100"
+          height="100"
+          alt="4">
+        </div>
+        <div title="title-5" class="poke-5" id="5">
+          <img src="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-icon-download-icons-32.png"
+          width="100"
+          height="100"
+          alt="5">
+        </div>
+        <div title="title-6" class="poke-6" id="6">
+          <img src="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-icon-download-icons-32.png"
+          width="100"
+          height="100"
+          alt="6">
+        </div>
+        <div title="title-8" class="poke-spacer-8" id="8"> </div>
+        <br>
+        <div class="buttons">
+          <button value="GO!"  id="go" class="go-button" height="40px" width="80px">GO!</button>
+        <br>
+        <br>
+          <button value="reset" id="reset" class="reset">reset</button>
+        </div>
+      </div> 
+    </h2>
+  </body>
+<br>
+  <body>
+      <h3 class="trainer-selector">
+          <p class="train-text">Select Your Trainer!</p>
+          <div class="trainer" id="trainer">
+            <div class="trainer-he" id="trainer-he">
+              <img 
+                title="gender-he"
+                class="gender"
+                id="gender-he"
+                src="https://archives.bulbagarden.net/media/upload/f/f4/Spr_B2W2_Blue.png"
+                  width="100"
+                  height="100"/>
+            </div>
+            <div class="trainer-they" id="trainer-they">
+              <img
+                title="gender-they" 
+                class="gender"
+                id="gender-they"
+                src="https://archives.bulbagarden.net/media/upload/7/70/Spr_B2W2_Hugh.png"
+                  width="100"
+                  height="100"/>
+            </div>
+            <div class="trainer-she" id="trainer-she">
+              <img 
+                title="gender-she"
+                class="gender"
+                id="gender-she"
+                src="https://archives.bulbagarden.net/media/upload/b/b7/Spr_B2W2_Hilda_2.png"
+                  width="100"
+                  height="100"/>
+            </div>
+        </div>
+    </h3>
+  </body>
+<br>
+<body>
+  <header>
+    <h4 class="pick-team-title">Pick Your Team!</h4>
+  </header>
+</div>
+<div id="Poke-container"></div>
+<script type="text/javascript"  defer src="./index.js"></script>
+</body>
+
+<br>
+<h5>
+  <!-- <a
+  href="https://ucarecdn.com/934d71b7-5bee-48e0-a208-839bd67f33f1/videoplayback.mp4"
+  class="js--music-player"
+  >▶️ Play</a
+>
+<br />
+<a
+  href="https://ucarecdn.com/934d71b7-5bee-48e0-a208-839bd67f33f1/videoplayback.mp4"
+  class="js--music-player"
+  >▶️ Play</a -->
+>
+</h5>
 </html>
+
+
+

@@ -1,0 +1,434 @@
+.wrapper { 
+  color: gold; 
+  font-size: 36px; 
+  font-weight: bold;
+  text-align: center;
+  background-color:black;
+  padding: 40px 40px 40px 40px;
+  text-shadow: 5px 5px 5px rgb(92, 92, 245);
+  font-family:'Helvetica Neue';
+  border-radius: 25px 25px 25px 25px;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+
+.poke-img {
+  background-color:black;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  font-family:'Helvetica Neue';
+  border-radius: 17px 17px 17px 17px;
+  background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/002/328/263/05b.gif);
+}
+
+
+.selection-bar {
+  background-color: gold;
+  border-radius:25px 25px 25px 25px;
+  font-family: 'Helvetica Neue';
+  text-align:center;
+  padding: 25px 25px 25px 25px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+
+div#trainer.trainer {
+  display:flex;
+  justify-content:center;
+}
+
+
+.trainer-he {
+  text-align: center;
+  align-items: center;
+}
+
+
+.trainer-they {
+  text-align: center;
+  align-items: center;
+}
+
+
+.trainer-she {
+  text-align: center;
+  align-items: center;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: flex-start;
+  align-items:center;
+  align-content:space-between;
+  text-align: center;
+}
+
+
+@media (max-width: 1160px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+.poke-0 {
+  padding-left:-12.5%;
+  padding-right:2.5%;
+}
+
+
+.poke-1 {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+
+.poke-2 {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+
+.poke-3 {
+padding-left: 2.5%;
+padding-right:2.5%;
+}
+
+
+.poke-4 {
+  padding-left: 2.5%;
+  padding-right:2.5%;
+}
+
+
+.poke-5 {
+  padding-left: 2.5%;
+  padding-right:2.5%;
+}
+
+
+.poke-6 {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+
+.reset {
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+
+.go-button {
+  padding-left: 100%;
+  padding-right: 100%;
+}
+
+
+.poke-spacer-8 {
+  padding-left: -17.5%;
+  padding-right: 2.5%;
+}
+
+div#flexid-containter.flex-container {
+  align-self: center;
+}
+
+.trainer-selector {
+  background-color: rgb(188, 208, 224);
+  border-radius: 25px 25px 25px 25px;
+  font-family: 'Helvetica Neue';
+  text-align:center;
+  font-size:24px;
+}
+
+
+.train-text {
+  font-family:"Helvetica Neue";
+  padding: 10px 10px 10px 10px;
+  font-weight:bold;
+}
+
+
+#gender-he {
+  transition: transform 500ms ease;
+}
+
+
+#gender-he:hover {
+  transform: scale(1.50);
+}
+
+
+#gender-they {
+  transition: transform 500ms ease;
+}
+
+
+#gender-they:hover {
+  transform: scale(1.50);
+}
+
+
+#gender-she {
+  transition: transform 500ms ease;
+}
+
+
+#gender-she:hover {
+  transform: scale(1.50);
+}
+
+
+.poke-1 {
+  transition: transform 500ms ease;  
+}
+
+
+.poke-1:hover {
+  transform: scale(1.50);
+}
+
+
+.poke-2 {
+  transition: transform 500ms ease;
+}
+
+
+.poke-2:hover {
+  transform: scale(1.50);
+}
+
+
+.poke-3 {
+  transition: transform 500ms ease;
+}
+
+
+.poke-3:hover {
+  transform: scale(1.50);
+}
+
+
+.poke-4 {
+  transition: transform 500ms ease;
+}
+
+
+.poke-4:hover {
+  transform: scale(1.50);
+}
+
+
+.poke-5 {
+  transition: transform 500ms ease;
+}
+
+
+.poke-5:hover {
+  transform: scale(1.50);
+}
+
+
+.poke-6 {
+  transition: transform 500ms ease;
+}
+
+
+.poke-6:hover {
+  transform: scale(1.50);
+}
+
+
+.go-button {
+  transition: transform 500ms ease;
+}
+
+
+.go-button:hover {
+  transform: scale(1.50);
+}
+
+
+.pick-team-title {
+  border-radius:25px 25px 25px 25px;
+  font-family: 'Helvetica Neue';
+  text-align:center;
+  font-size:24px; 
+}
+
+
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+
+#poke-header {
+  display: flex;
+  justify-content: center;
+  background: white;
+  opacity: .8;
+  height: 15rem;
+  padding-top:2rem;
+  padding-right:2rem;
+  padding-bottom:2rem;
+  padding-left:2rem;
+}
+
+
+#poke-header img {
+  height:15rem;
+  width: auto;
+}
+
+
+#poke-collection {
+  margin: 2rem;
+}
+
+
+.card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52
+}
+
+
+.poke-avatar {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
+
+button:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+}
+
+
+.container {
+  padding: 1rem;
+  /* width: stretch; */
+  height: auto;
+  display: none;
+  background: #515DA2;
+  opacity: .8;
+}
+/* 
+
+.add-toy-form {
+  width: 80%
+} */
+
+
+.submit {
+  position: relative;
+  background-color: #e04b52;
+  border-radius: 5px;
+  height: 2rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+  font-family: monospace;
+  margin: 3px;
+}
+
+
+.submit:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+}
+
+
+.input-text {
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  font-size: 18px;
+  font-family: monospace;
+  margin: 3px;
+}
+
+
+#Poke-container > div {
+  display: inline-grid;
+  transition: transform 500ms ease;
+  text-align: center;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-bottom: 5%;
+}
+
+
+#Poke-container > div:hover {
+  transform: scale(1.50);
+}
+
+
+.poke-name  {
+  color: blue;
+}
+
+
+.add-button {
+border: 2px solid black;
+background-color: yellow;
+color: black;
+padding: 8px 12px;
+font-size: 16px;
+cursor: pointer;
+  
+}
+.add-button:hover {
+  background-color:red;
+  color: white;
+}
+
+
+#Poke-container {
+  font-family: 'Helvetica Neue';
+  font-size: 12px;
+  padding-left:15%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  padding-top:1%;
+}
+
+
+h5 {
+  font-family: 'Helvetica Neue';
+  font-size: 8px;
+  padding:1%;
+  visibility: hidden;
+}
+
+.reset {
+  font-style: italic;
+}
+
