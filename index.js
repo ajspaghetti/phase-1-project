@@ -15,26 +15,26 @@ let poke6 = document.querySelector("#\\36  > img")
     goButton.addEventListener('click', () => {
     battleMusic.pause()
     battleMusic.play()
-    // for starting the confetti 
-    // Confetti effect source https://dev.to/official_fire/creating-a-confetti-effect-in-5-minutes-16h3
+                                                    // for starting the confetti 
+                                                        // Confetti effect source https://dev.to/official_fire/creating-a-confetti-effect-in-5-minutes-16h3
     const start = () => {
         setTimeout(function() {
             confetti.start()
-        }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        }, 1000);                                   // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
     };
 
-    //  for stopping the confetti 
+                                                    //  for stopping the confetti 
 
     const stop = () => {
         setTimeout(function() {
             confetti.stop()
-        }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        }, 5000);                                   // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
     };
-// after this here we are calling both the function so it works
+                                                     // after this here we are calling both the function so it works
     start();
     stop();
 
-// if you dont want to make it stop and make it infinite you can just remove the stop function 
+                                                    // if you dont want to make it stop and make it infinite you can just remove the stop function 
 
 })
 
@@ -71,6 +71,7 @@ let poke6 = document.querySelector("#\\36  > img")
 }
 
 function renderPokemon(pokemonData) {
+    console.log(pokemonData.id)
     const oneType = pokemonData.types[0].type.name.toUpperCase()
     const twoTypes = pokemonData.types[1]?.type.name.toUpperCase()
     const type1 = document.createElement('p')
@@ -115,33 +116,36 @@ function renderPokemon(pokemonData) {
    }
 })
         
-        addButton.addEventListener('click', (e) => {
-        if(poke1.src === pokeBall) {
-            poke1.src = image.src
-
-        } else if (poke2.src === pokeBall){
-            poke2.src = image.src
-        
-        } else if (poke3.src === pokeBall){
-            poke3.src = image.src
-        
-        } else if (poke4.src === pokeBall){
-            poke4.src = image.src
-        
-        } else if (poke5.src === pokeBall){
-            poke5.src = image.src
-        
-        } else if (poke6.src === pokeBall){
-            poke6.src = image.src
-        
-        } else if 
-            (alert('TEAM IS FULL!')) {
-
-                }
+        addButton.addEventListener('click', (e) => { 
+            if(poke1.src === pokeBall) {
+                poke1.src = pokemonData.sprites.front_shiny
+    
+            } else if (poke2.src === pokeBall){
+                poke2.src = pokemonData.sprites.front_shiny
+            
+            } else if (poke3.src === pokeBall){
+                poke3.src = pokemonData.sprites.front_shiny
+            
+            } else if (poke4.src === pokeBall){
+                poke4.src = pokemonData.sprites.front_shiny
+            
+            } else if (poke5.src === pokeBall){
+                poke5.src = pokemonData.sprites.front_shiny
+            
+            } else if (poke6.src === pokeBall){
+                poke6.src = pokemonData.sprites.front_shiny
+    
+            
+            } else if 
+                (alert('TEAM IS FULL!')) {
+    
+                    }
+           
             })
 
         
-            }
+        }
+        
     
     
     
